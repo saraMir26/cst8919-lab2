@@ -1,0 +1,65 @@
+### Home page
+GET https://cst8919-lab2-sara.azurewebsites.net/
+
+### Failed login 1
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong1"
+}
+
+### Failed login 2
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong2"
+}
+
+### Failed login 3
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong3"
+}
+
+### Failed login 4
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong4"
+}
+
+### Failed login 5
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong5"
+}
+
+### Failed login 6
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong6"
+}
+
+### Successful login
+POST https://cst8919-lab2-sara.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "Password123!"
+}
